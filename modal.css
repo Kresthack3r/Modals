@@ -1,0 +1,140 @@
+
+
+/* Top Modal */
+
+#top-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(23, 24, 25, 0.400);
+    position: absolute;
+    top: 10vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.top-modal-content {
+    min-width: 300px;
+    max-width: 800px;
+    background-color: white;
+    height: 40vh;
+    padding: 10px 5%;
+    border-radius: 10px;
+    transition: all 0.4s ease-in 0.5s;
+}
+
+/* Modal Header  */
+
+.Modal-Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Modal-Header button {
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: none;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+}
+
+/* Right Modal */
+
+#right-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(23, 24, 25, 0.400);
+    position: absolute;
+    top: 10vh;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
+.right-modal-content {
+    min-width: 300px;
+    max-width: 500px;
+    background-color: white;
+    height: 100vh;
+    padding: 10px 5%;
+    border-radius: 10px;
+    transition: all 0.4s ease-in 0.5s;
+}
+
+/* Left Modal */
+
+#left-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(23, 24, 25, 0.400);
+    position: absolute;
+    top: 10vh;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    display: none;
+}
+
+.left-modal-content {
+    min-width: 300px;
+    max-width: 500px;
+    background-color: white;
+    height: 100vh;
+    padding: 10px 5%;
+    border-radius: 10px;
+    transition: all 0.4s ease-in 0.5s;
+}
+
+/* Bottom Modal */
+
+#bottom-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(23, 24, 25, 0.400);
+    position: absolute;
+    top: 10vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.bottom-modal-content {
+    min-width: 300px;
+    max-width: 800px;
+    background-color: white;
+    height: 40vh;
+    padding: 10px 5%;
+    border-radius: 10px;
+    transition: all 0.4s ease-in 0.5s;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Center Modal */
+
+#center-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(23, 24, 25, 0.400);
+    position: absolute;
+    top: 10vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.center-modal-content {
+    min-width: 300px;
+    max-width: 800px;
+    background-color: white;
+    height: 40vh;
+    padding: 10px 5%;
+    border-radius: 10px;
+    transition: all 0.4s ease-in 0.5s;
+}
